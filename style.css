@@ -1,0 +1,177 @@
+body{
+    background-color: beige;
+}
+.parent{
+    display: grid;
+    position: relative;
+    top: 75px;
+    width:100%;
+    gap: 20px;
+    grid-template-columns: auto auto auto auto;
+}
+.serach{
+    text-align: center;
+    font-size: medium;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    color: black;
+}
+.child1,.child2,.child3,.child4,.child5,.child6,.child7,.child8{
+    width: 300px;
+    height: 300px;
+}
+.child1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+}
+img{
+    border-radius: 50%;
+    width: 75%;
+    height: 100%;
+}
+.event1{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(235, 134, 134);
+    text-align: center;
+    font-weight: bold;
+}
+.condainer1,.condainer2{
+    width: 150px;
+    height: 150px;
+}
+.child2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+}
+.event2{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(235, 134, 134);
+    text-align: center;
+    font-weight: bold;
+}
+.child3{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+}
+.event3{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(235, 134, 134);
+    text-align: center;
+    font-weight: bold;
+}
+.child4{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+}
+.event4{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(235, 134, 134);
+    text-align: center;
+    font-weight: bold;
+}
+.child5{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+}
+.event5{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(235, 134, 134);
+    text-align: center;
+    font-weight: bold;
+}
+.child6{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+}
+.event6{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(235, 134, 134);
+    text-align: center;
+    font-weight: bold;
+}
+.child7{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+}
+.event7{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(235, 134, 134);
+    text-align: center;
+    font-weight: bold;
+}
+.child8{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+}
+.event8{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(235, 134, 134);
+    text-align: center;
+    font-weight: bold;
+}
+/* Event booking page */
+body{
+    display: block;
+}
+.nameofevent{
+text-align: center;
+background-color: lightpink;
+width: 100%;
+height: 50px;
+position: absolute;
+top: 0%;
+left: 0%;
+}
+.seat{
+text-align: center;
+width: 100%;
+height: 50px;
+position: absolute;
+top: 60px;
+left: 0%;
+}
+.detailsBox{
+display: grid;
+grid-template-columns: 50% 50%;
+width: 1200px;
+height: 400px;
+position: absolute;
+top: 150px;
+}
+/* .imgofevent{
+width: 600px;
+height: 400px;
+} */
+.persondetail{
+width: 300px;
+height: 400px;
+display: flex;
+flex-direction: column;
+}
+
+.homebtn{
+width: 50px;
+height: 40px;
+position: absolute;
+top: 80px;
+left: 50px;
+}
